@@ -126,3 +126,78 @@ input {
 }
 
 /* !Section1 */
+
+/* Section2 */
+
+.section2 {
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+}
+
+.reverseTitle {
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+span.blueBtn {
+    background-color: #004A80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #F6BC25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2em;
+    margin-right: 15px;
+    text-align: center;
+    width: 2em; 
+  }
+
+  .colmn2 {
+      display: flex;
+      align-items: center;
+  }
+
+  .loremMainP {
+    font-size: 22px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+
+  .loremTitle {
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  .loremP {
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+
+  /* !Section2 */
+
+/* Footer */
+
+.footerP {
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+footer.page-footer a {
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+
