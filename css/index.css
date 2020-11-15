@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Navbar Section */
+
+.navbarColor {
+    background-color: #014A80;
+}
+
+
+.iconSearch {
+    width: 20px;
+    height: 20px;
+}
+
+.iconPerson {
+    width: 20px;
+    height: 20px;
+}
+
+/* !Navbar Section */
