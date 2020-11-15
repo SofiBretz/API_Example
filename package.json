@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/SofiBretz/API_Example#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "webpack": "^5.4.0"
   }
 }
