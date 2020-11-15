@@ -37,3 +37,92 @@ body {
 }
 
 /* !Navbar Section */
+
+/* Section1 */
+
+.section1 {
+    background-color: #014A80;
+    height: 444px;
+}
+
+.Section1Title {
+    padding-top: 55px;
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.h2Text {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+.orangeText {
+    color: #F6BC25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.formClass {
+    width: 780px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+}
+
+input {
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.goBtn {
+    width: 180px;
+    height: 70px; 
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+}
+
+.goText {
+    color: #014A80;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.lockRow {
+    padding-left: 1rem;
+}
+
+.lockImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailInfo {
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+/* !Section1 */
