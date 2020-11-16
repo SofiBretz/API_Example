@@ -121,7 +121,7 @@ span.blueBtn {
     padding-bottom: 3rem;
 }
 
-.Section1Title {
+.Section2Title {
     padding-top: 55px;
     font-weight: bold;
     font-size: 52px;
@@ -239,16 +239,34 @@ footer.page-footer a {
   
   /* Medium devices (tablets, 768px and down) */
   @media only screen and (max-width: 768px) {
-    .section1 {
+     .section1 {
       height: auto;
-      padding-bottom: 3rem;
-    }
-
-    .formContainer {
-      margin: 1rem;
-      width: fit-content;
     }
   
+    .Section2Title {
+      font-size: 48px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .resultText {
+      font-size: 24px;
+    }   
+    
+    span.blueBtn {
+      background-color: #004a80;
+      border-radius: 1em;
+      -moz-border-radius: 1em;
+      -webkit-border-radius: 1em;
+      color: #f6bc25;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.5em;
+      margin-right: 15px;
+      text-align: center;
+      width: 1.5em;
+    }
+
     .formClass {
       width: 560px;
     }
@@ -260,15 +278,24 @@ footer.page-footer a {
   
   /* Small devices (landscape phones, 576px and down) */
   @media (max-width: 576px) {
+    .section1 {
+      height: auto;
+    }
+  
+    .Section2Title {
+      font-size: 38px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .resultText {
+      font-size: 18px;
+    }   
+    
     span.blueBtn {
         display: none;
     }
 
-    .formContainer {
-      margin-right: 2rem;
-      width: fit-content;
-    }
-  
     .formClass {
       width: auto;
     }
@@ -276,6 +303,23 @@ footer.page-footer a {
     .goBtn {
       width: 80vw;
       margin-left: 0;
+    }
+
+    .emailInfo {
+      font-size: 12px;
+      padding-top: 0.25rem;
+    }
+
+    .orangeText {
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+  
+    .h2Text {
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
     }
   }
 

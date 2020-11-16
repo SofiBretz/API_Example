@@ -220,7 +220,56 @@ footer.page-footer a {
 @media only screen and (max-width: 768px) {
   .section1 {
     height: auto;
-    padding-bottom: 3rem;
+  }
+
+  .Section1Title {
+    font-size: 48px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .h2Text {
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .reverseTitle {
+    font-size: 48px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .columnInfo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .loremMainP {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-right: 2rem;
+    margin-left: 0.25rem;
+  }
+
+  .loremTitle {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  span.blueBtn {
+    background-color: #004a80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #f6bc25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.5em;
   }
 
   .formContainer {
@@ -239,6 +288,69 @@ footer.page-footer a {
 
 /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
+  .Section1Title {
+    font-size: 38px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .orangeText {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .h2Text {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .emailInfo {
+    font-size: 12px;
+    padding-top: 0.25rem;
+  }
+
+  .lockImg {
+    margin-left: 1rem;
+  }
+
+  .reverseTitle {
+    font-size: 38px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .loremMainP {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-left: 2rem;
+  }
+
+  .rowNumbers {
+    padding-left: 2rem;
+  }
+
+  .columnInfo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  span.blueBtn {
+    background-color: #004a80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #f6bc25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.5em;
+  }
+
   .formContainer {
     margin-right: 2rem;
     width: fit-content;
@@ -249,7 +361,7 @@ footer.page-footer a {
   }
 
   .goBtn {
-    width: 80vw;
+    width: 76vw;
     margin-left: 0;
   }
 }
