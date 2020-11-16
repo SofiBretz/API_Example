@@ -1,7 +1,7 @@
 # API_Example
 This is a repository to share how to connect an API with JS. 
 
-![images/API_Presentation.png]
+![screenshot](https://i.imgur.com/bptBhFj.png)
 
 The main goal of this project is share how to connect an API with JS. Building a simple webpage using JS, HTML and Bootstrap, using ES6.
 
