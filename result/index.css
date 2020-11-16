@@ -90,20 +90,20 @@ span.blueBtn {
       padding-left: 2rem;
   }
 
-  .person, .adress, .phoneTitle, .email, .relatives {
+  .person, .address, .phoneTitle, .email, .relatives {
     color: #004A80;
     letter-spacing: 0;
     font-weight: bold;
   }
 
-  .description, .adressText, .emailText, .relativesText {
+  .description, .addressText, .emailText, .relativesText {
     font-size: 18px;
     color: #000000;
     letter-spacing: 0;
     line-height: 26px;
   }
 
-  .phoneNumber {
+  .phoneNumbers {
     font-size: 18px;
     color: #004A80;
     letter-spacing: 0;
