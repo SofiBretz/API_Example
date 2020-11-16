@@ -1,26 +1,6 @@
-/* document.querySelector("#myForm").addEventListener("submit", function(e){
-    var request = new XMLHttpRequest();
-    let url = `https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${inputVal}`;
-    request.open("GET", url, false);
-    request.send(null);
-    e.preventDefault(); //stop form from submitting
-    const inputVal = document.getElementById("inlineFormInput").value;
-    fetch(`https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${inputVal}`)
-    console.log('hola')
-        .then(inputVal => {
-            if (request.status === 200) {
-                console.log('SUCCESS')
-            } else {
-                console.log("Not Successful")
-            }
-            
-        })
-    .then(data => console.log('--->',data))
-    .catch(error => console.log("ERROR"))
-});  */
-
 document.querySelector('#myForm').addEventListener('submit', function (e) {
   e.preventDefault();
+  //get the input value
   const inputVal = document.getElementById('inlineFormInput').value;
   console.log('INPUT VALUE :', inputVal);
 
@@ -32,15 +12,16 @@ document.querySelector('#myForm').addEventListener('submit', function (e) {
   fetch(url)
     .then((response) => {
       if (request.status === 200) {
-        console.log('si funciona');
+        console.log('it works');
       }
-
+      //if the page doesn't work it will be returned and an error will occur
       if (!response.ok) {
         console.log(response);
         throw Error('ERROR');
       }
       return response.json();
     })
+    // Checking if the user is value
     .then((data) => {
       if (data.length > 0) {
         window.location.href = `/result/index.html?email=${inputVal}`;
@@ -53,16 +34,4 @@ document.querySelector('#myForm').addEventListener('submit', function (e) {
     .catch((error) => {
       console.log(error);
     });
-
-  // const html = data.data.map(user => {
-  //   return `
-  //   <div class="user">
-  //   <p><img src= "${user.avatar}" alt="${user.first_name}" /> </p>
-  //   <p>Name: ${user.first_name}</p>
-  //   <p>Email: ${user.email}</p>
-  //   </div>
-  //   `
-  // }).join('');
-  //console.log(html)
-  //document.querySelector('#app').innerHTML = html
 });

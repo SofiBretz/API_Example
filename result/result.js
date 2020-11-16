@@ -1,10 +1,13 @@
 window.onload = function () {
-  const regexArray = /\?email=(.+)$/.exec(window.location.search);
+  //Regex conditions here
+  const regexArray = /\?email=(([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?))$/.exec(
+    window.location.search
+  );
   let email;
   if (regexArray !== null) {
     email = regexArray[1];
-  }else{
-      throw Error('Invalid Email');
+  } else {
+    throw Error('Invalid Email');
   }
   var request = new XMLHttpRequest();
   let url = `https://cors-anywhere.herokuapp.com/https://ltv-data-api.herokuapp.com/api/v1/records.json?email=${email}`;
@@ -14,7 +17,7 @@ window.onload = function () {
   fetch(url)
     .then((response) => {
       if (request.status === 200) {
-        console.log('si funciona');
+        console.log('it works');
       }
 
       if (!response.ok) {
@@ -23,6 +26,7 @@ window.onload = function () {
       }
       return response.json();
     })
+    //adding the data API to each Id on the page
     .then((data) => {
       console.log(data.email);
       const person = `${data.first_name} ${data.last_name}`;
