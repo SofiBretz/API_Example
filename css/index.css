@@ -12,28 +12,27 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container-fluid {
-    padding: 0;
+  padding: 0;
 }
 
 /* Navbar Section */
 
 .navbarColor {
-    background-color: #014A80;
+  background-color: #014a80;
 }
 
-
 .iconSearch {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .iconPerson {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 /* !Navbar Section */
@@ -41,88 +40,89 @@ body {
 /* Section1 */
 
 .section1 {
-    background-color: #014A80;
-    height: 444px;
+  background-color: #014a80;
+  padding-bottom: 3rem;
 }
 
 .Section1Title {
-    padding-top: 55px;
-    font-weight: bold;
-    font-size: 52px;
-    color: #FFFFFF;
-    letter-spacing: 0;
-    text-align: center;
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 52px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .h2Text {
-    font-size: 24px;
-    color: white;
-    letter-spacing: 0;
-    text-align: center;
-    line-height: 29px;
+  font-size: 24px;
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 29px;
 }
 
 .orangeText {
-    color: #F6BC25;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 0;
-    text-align: center;
+  color: #f6bc25;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 .formClass {
-    width: 780px;
-    height: 70px;
-    background: #FFFFFF;
-    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
-    border-radius: 3px;
+  width: 780px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
 }
 
 input {
-    font-size: 16px;
-    color: #9B9B9B;
-    letter-spacing: 2px;
-    line-height: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
+  font-size: 16px;
+  color: #9b9b9b;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
 }
 
 .goBtn {
-    width: 180px;
-    height: 70px; 
-    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
-    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
-    border-radius: 6px;
+  width: 180px;
+  height: 70px;
+  background-image: linear-gradient(225deg, #f2da56 0%, #f6bc25 100%);
+  box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
+  border-radius: 6px;
+  margin-top: -0.25rem;
 }
 
 .goText {
-    color: #014A80;
-    font-weight: bold;
-    font-size: 24px;
-    letter-spacing: 1px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+  color: #014a80;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
 }
 
 .lockRow {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .lockImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .emailInfo {
-    font-size: 16px;
-    color: #F6BC25;
-    letter-spacing: 0;
-    font-weight: bold;
+  font-size: 16px;
+  color: #f6bc25;
+  letter-spacing: 0;
+  font-weight: bold;
 }
 
 /* !Section1 */
@@ -130,74 +130,126 @@ input {
 /* Section2 */
 
 .section2 {
-    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+  background-image: linear-gradient(0deg, #e6e6e6 0%, #ffffff 100%);
 }
 
 .reverseTitle {
-    font-size: 52px;
-    color: #004A80;
-    letter-spacing: 0;
-    text-align: center;
-    line-height: 70px;
-    font-weight: bold;
+  font-size: 52px;
+  color: #004a80;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
 }
 
 span.blueBtn {
-    background-color: #004A80;
-    border-radius: 1em;
-    -moz-border-radius: 1em;
-    -webkit-border-radius: 1em;
-    color: #F6BC25;
-    display: inline-block;
-    font-weight: bold;
-    line-height: 2em;
-    margin-right: 15px;
-    text-align: center;
-    width: 2em; 
-  }
+  background-color: #004a80;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  color: #f6bc25;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2em;
+  margin-right: 15px;
+  text-align: center;
+  width: 2em;
+}
 
-  .colmn2 {
-      display: flex;
-      align-items: center;
-  }
+.colmn2 {
+  display: flex;
+  align-items: center;
+}
 
-  .loremMainP {
-    font-size: 22px;
-    color: #4A4A4A;
-    letter-spacing: 0;
-    line-height: 30px;
-  }
+.loremMainP {
+  font-size: 22px;
+  color: #4a4a4a;
+  letter-spacing: 0;
+  line-height: 30px;
+}
 
-  .loremTitle {
-    color: #004A80;
-    letter-spacing: 0;
-    font-weight: bold;
-  }
+.loremTitle {
+  color: #004a80;
+  letter-spacing: 0;
+  font-weight: bold;
+}
 
-  .loremP {
-    font-size: 18px;
-    color: #000000;
-    letter-spacing: 0;
-    line-height: 26px;
-  }
+.loremP {
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+}
 
-  /* !Section2 */
+/* !Section2 */
 
 /* Footer */
 
 .footerP {
-    font-size: 15px;
-    color: #999999;
-    letter-spacing: 0;
-    line-height: 20px;
+  font-size: 15px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 20px;
 }
 
 footer.page-footer a {
-    font-size: 14px;
-    color: #004A80;
-    letter-spacing: 0;
-    font-weight: bold;
-    display: inline-flex;
+  font-size: 14px;
+  color: #004a80;
+  letter-spacing: 0;
+  font-weight: bold;
+  display: inline-flex;
 }
 
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+  .formContainer {
+    margin: 1rem;
+    width: fit-content;
+  }
 
+  .formClass {
+    width: 560px;
+  }
+
+  .goBtn {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .section1 {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .formContainer {
+    margin: 1rem;
+    width: fit-content;
+  }
+
+  .formClass {
+    width: 560px;
+  }
+
+  .goBtn {
+    width: auto;
+  }
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .formContainer {
+    margin-right: 2rem;
+    width: fit-content;
+  }
+
+  .formClass {
+    width: auto;
+  }
+
+  .goBtn {
+    width: 80vw;
+    margin-left: 0;
+  }
+}
