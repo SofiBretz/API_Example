@@ -16,7 +16,7 @@ The main goal of this project is share how to connect an API with JS. Building a
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://stoic-volhard-5b399b.netlify.app/)
 
 ## Getting Started
 
