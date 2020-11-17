@@ -90,12 +90,17 @@ input {
 .goBtn {
   width: 180px;
   height: 70px;
-  background-image: linear-gradient(225deg, #f2da56 0%, #f6bc25 100%);
-  box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
+  background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
   border-radius: 6px;
   margin-top: -0.25rem;
-  opacity: 0.8;
-  transition: 0.3s;
+}
+
+.goBtn:focus {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
 }
 
 .goBtn:active {

@@ -168,6 +168,13 @@ input {
     border-radius: 6px;
 }
 
+.goBtn:focus {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
 .goBtn:active {
   background: #F6BC25;
   box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
