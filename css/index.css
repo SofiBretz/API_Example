@@ -94,6 +94,23 @@ input {
   box-shadow: 0 3px 0 0 #a6953b, inset 0 1px 0 0 #ffffff;
   border-radius: 6px;
   margin-top: -0.25rem;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.goBtn:active {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:hover {
+  background: #F2DA56;
+  opacity: 1;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
 }
 
 .goText {

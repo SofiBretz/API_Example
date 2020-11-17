@@ -86,10 +86,6 @@ span.blueBtn {
     line-height: 32px;
   }
 
-  .infoPerson {
-      padding-left: 2rem;
-  }
-
   .person, .address, .phoneTitle, .email, .relatives {
     color: #004A80;
     letter-spacing: 0;
@@ -261,18 +257,28 @@ footer.page-footer a {
       color: #f6bc25;
       display: inline-block;
       font-weight: bold;
-      line-height: 1.5em;
+      line-height: 1.25em;
       margin-right: 15px;
       text-align: center;
-      width: 1.5em;
+      width: 1.25em;
     }
 
     .formClass {
       width: 560px;
     }
+
+    .blueBtn img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 0.5rem;
+    }
   
     .goBtn {
       width: auto;
+    }
+
+    .infoPerson {
+      padding-left: 1rem;
     }
   }
   
@@ -320,6 +326,10 @@ footer.page-footer a {
       font-size: 18px;
       letter-spacing: 0;
       text-align: center;
+    }
+
+    .infoPerson {
+      padding-left: 1rem;
     }
   }
 

@@ -1,4 +1,4 @@
-document.querySelector('#myForm').addEventListener('submit', function (e) {
+document.querySelector('#myForm').addEventListener('submit', async function (e) {
   e.preventDefault();
   //get the input value
   const inputVal = document.getElementById('inlineFormInput').value;
@@ -23,12 +23,13 @@ document.querySelector('#myForm').addEventListener('submit', function (e) {
     })
     // Checking if the user is value
     .then((data) => {
-      if (data.length > 0) {
+      console.log('data:', data);
+      if (typeof data === 'object') {
         window.location.href = `/result/index.html?email=${inputVal}`;
-      } else {
-        const divFail = new HTMLDivElement();
+      } else if (data === []) {
+        const divFail = document.createElement('div');
         divFail.innerHTML = 'Invalid User';
-        document.getElementsByClassName('formContainer').appendChild(divFail);
+        document.getElementById('formContainer').appendChild(divFail);
       }
     })
     .catch((error) => {
