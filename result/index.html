@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>API Result</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Google Fonts Montserrat -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="../css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- outContainer -->
+    <div class="outContainer">
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbarColor">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="../images/Logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+                aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+                
+            </button>
+            <div id="navbarSupportedContent-333">
+            
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                        <img src="../images/icn_search.svg" alt="iconSearch" class="iconSearch">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light">
+                            <img src="../images/icn_person.svg" alt="iconPerson" class="iconPerson">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar -->
+</header>
+
+    <!-- innerContainer -->
+    <div class="container-fluid innerContainer">
+       
+        <!-- !Section1-->
+        <div class="container-fluid section1">
+            <div class="container">
+                <div class="row">
+                    <div class="col"><h1 class="resultTitle">Result</h1></div>
+                </div>
+                <div class="row">
+                    <div class="col"><p class="resultText">Look at the result below to see the details of the person you’re searched for.</p></div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Card -->
+                <div class="card cardStyle">
+
+                    <div class="container">
+                        <div class="row mt-4 mb-5">
+                            <div class="col-sm-12">
+                                <div class="row">
+                                    <div class="col-md-1 col-sm-2 colmn2"><h1><span class="blueBtn"><img src="../images/icn_person.svg" alt=""></span></h1></div>
+                                    <div class="col-md-11 col-sm-10 infoPerson"><h3 class="person" id="person"></h3>
+                                        <p class="description" id="description"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100"></div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-2 colmn2"><h1><span></span></h1></div>
+                                    <div class="col-sm-10"><h5 class="address">Adress</h5>
+                                        <p class="addressText" id="address"></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-2 colmn2"><h1><span></span></h1></div>
+                                    <div class="col-sm-10"><h5 class="phoneTitle">Phone Numbers</h5>
+                                        <a><p class="phoneNumbers" id="phoneNumbers"></p><br></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w-100"></div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-2 colmn2"><h1><span></span></h1></div>
+                                    <div class="col-sm-10"><h5 class="email">Email</h5>
+                                        <p class="emailText" id="email"></p>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-sm-2 colmn2"><h1><span></span></h1></div>
+                                    <div class="col-sm-10"><h5 class="relatives">Relatives</h5>
+                                        <p class="relativesText" id="relatives"></p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- Card -->
+            </div>
+        </div>
+        <!-- !Section1-->
+
+
+              <!-- Section2-->
+      <div class="section2">
+        <div>
+            <div><h2 class="Section2Title mb-3">Can’t Find The Right Person?</h2></div>
+            <div><p class="h2Text mb-4"><span class="orangeText">Try Again</span> - Make a new search</p></div>
+        </div>
+
+        <!-- Container form-->
+        <div class="container">
+                <form>
+                    <!-- Grid row -->
+                    <div class="form-row align-items-center">
+                    <!-- Grid column -->
+                    <div class="col-auto">
+                        <!-- Default input -->
+                        <label class="sr-only text-center" for="inlineFormInput">EMAIL</label>
+                        <input type="text" class="form-control mb-2 formClass" id="inlineFormInput" placeholder="EMAIL">
+                    </div>
+                
+                    <!-- Grid column -->
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-md mt-0 goBtn"><p class="goText">GO!</p></button>
+                    </div>
+                    </div>
+                    <!-- Grid row -->
+                </form>
+        </div>
+        <!-- !Container form-->
+
+        <div class="container">
+            <div class="row lockRow mt-3">
+                <a href="#"><img src="../images/lock.svg" alt="lockImage" class="lockImg"></a>
+                <p class="pl-2 emailInfo">Enter Any Email Address. They won't be notified.</p>
+            </div>
+        </div>
+    </div>
+    <!-- !Section2-->
+    <!-- End of Inner-container -->
+    </div>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+        <div>
+            
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3 bg-white">
+                     <div class="row mt-2">
+                        <div class="container">
+                            <div class="col-xl-12 col-lg-9 col-md-12 col-sm-6"><p class="footerP">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+                        </div>
+                        <div class="col-xl-3 col-lg-12 col-md-12 col-sm-6">
+                            <a href="#">Terms |</a>
+                            <a href="#">Privacy</a>
+                        </div>
+                    </div>
+            </div>
+            <!-- Copyright -->  
+        </div>
+    </footer>
+    <!-- !Footer -->
+    </div>
+    <!-- outContainer -->
+
+  <!-- End of the project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+  <script type="text/javascript" src="./result.js"></script>
+
+</body>
+</html>
+
+

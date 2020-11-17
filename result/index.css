@@ -1,0 +1,357 @@
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/* Navbar Section */
+
+.navbarColor {
+    background-color: #014A80;
+}
+
+
+.iconSearch {
+    width: 20px;
+    height: 20px;
+}
+
+.iconPerson {
+    width: 20px;
+    height: 20px;
+}
+
+/* !Navbar Section */
+
+/* Section1 */
+
+.section1 {
+    background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
+}
+
+.cardStyle {
+    border-radius: 1em;
+    margin-bottom: 3.5rem;
+    margin-top: 1rem;
+}
+
+.resultTitle {
+    font-size: 52px;
+    color: #004A80;
+    letter-spacing: 0;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+span.blueBtn {
+    background-color: #004A80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #F6BC25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 2em;
+    margin-right: 15px;
+    text-align: center;
+    width: 2em; 
+  }
+
+  .colmn2 {
+      display: flex;
+      align-items: center;
+  }
+
+  .resultText {
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 32px;
+  }
+
+  .person, .address, .phoneTitle, .email, .relatives {
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+  }
+
+  .description, .addressText, .emailText, .relativesText {
+    font-size: 18px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 26px;
+  }
+
+  .phoneNumbers {
+    font-size: 18px;
+    color: #004A80;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* !Section1 */
+
+/* Section2 */
+
+.section2 {
+    background-color: #014A80;
+    padding-bottom: 3rem;
+}
+
+.Section2Title {
+    padding-top: 55px;
+    font-weight: bold;
+    font-size: 52px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.h2Text {
+    font-size: 24px;
+    color: white;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 29px;
+}
+
+.orangeText {
+    color: #F6BC25;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.formClass {
+    width: 780px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: inset 0 -1px 4px 0 rgba(0,0,0,0.20);
+    border-radius: 3px;
+}
+
+input {
+    font-size: 16px;
+    color: #9B9B9B;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.goBtn {
+    width: 180px;
+    height: 70px; 
+    background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+    box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+    border-radius: 6px;
+}
+
+.goBtn:focus {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:active {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:hover {
+  background: #F2DA56;
+  opacity: 1;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goText {
+    color: #014A80;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.lockRow {
+    padding-left: 1rem;
+}
+
+.lockImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailInfo {
+    font-size: 16px;
+    color: #F6BC25;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+/* !Section2 */
+
+/* Footer */
+
+.footerP {
+    font-size: 15px;
+    color: #999999;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+
+footer.page-footer a {
+    font-size: 14px;
+    color: #004A80;
+    letter-spacing: 0;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+    .formContainer {
+      margin: 1rem;
+      width: fit-content;
+    }
+  
+    .formClass {
+      width: 560px;
+    }
+  
+    .goBtn {
+      width: auto;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and down) */
+  @media only screen and (max-width: 768px) {
+     .section1 {
+      height: auto;
+    }
+  
+    .Section2Title {
+      font-size: 48px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .resultText {
+      font-size: 24px;
+    }   
+    
+    span.blueBtn {
+      background-color: #004a80;
+      border-radius: 1em;
+      -moz-border-radius: 1em;
+      -webkit-border-radius: 1em;
+      color: #f6bc25;
+      display: inline-block;
+      font-weight: bold;
+      line-height: 1.25em;
+      margin-right: 15px;
+      text-align: center;
+      width: 1.25em;
+    }
+
+    .formClass {
+      width: 560px;
+    }
+
+    .blueBtn img {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .goBtn {
+      width: auto;
+    }
+
+    .infoPerson {
+      padding-left: 1rem;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and down) */
+  @media (max-width: 576px) {
+    .section1 {
+      height: auto;
+    }
+  
+    .Section2Title {
+      font-size: 38px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .resultText {
+      font-size: 18px;
+    }   
+    
+    span.blueBtn {
+        display: none;
+    }
+
+    .formClass {
+      width: auto;
+    }
+  
+    .goBtn {
+      width: 80vw;
+      margin-left: 0;
+    }
+
+    .emailInfo {
+      font-size: 12px;
+      padding-top: 0.25rem;
+    }
+
+    .orangeText {
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+  
+    .h2Text {
+      font-size: 18px;
+      letter-spacing: 0;
+      text-align: center;
+    }
+
+    .infoPerson {
+      padding-left: 1rem;
+    }
+  }
+

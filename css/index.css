@@ -1,0 +1,389 @@
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+/* Navbar Section */
+
+.navbarColor {
+  background-color: #014a80;
+}
+
+.iconSearch {
+  width: 20px;
+  height: 20px;
+}
+
+.iconPerson {
+  width: 20px;
+  height: 20px;
+}
+
+/* !Navbar Section */
+
+/* Section1 */
+
+.section1 {
+  background-color: #014a80;
+  padding-bottom: 3rem;
+}
+
+.Section1Title {
+  padding-top: 55px;
+  font-weight: bold;
+  font-size: 52px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.h2Text {
+  font-size: 24px;
+  color: white;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 29px;
+}
+
+.orangeText {
+  color: #f6bc25;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.formClass {
+  width: 780px;
+  height: 70px;
+  background: #ffffff;
+  box-shadow: inset 0 -1px 4px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+input {
+  font-size: 16px;
+  color: #9b9b9b;
+  letter-spacing: 2px;
+  line-height: 18px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.goBtn {
+  width: 180px;
+  height: 70px;
+  background-image: linear-gradient(225deg, #F2DA56 0%, #F6BC25 100%);
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  margin-top: -0.25rem;
+}
+
+.goBtn:focus {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:active {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:hover {
+  background: #F2DA56;
+  opacity: 1;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goText {
+  color: #014a80;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.lockRow {
+  padding-left: 1rem;
+}
+
+.lockImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailInfo {
+  font-size: 16px;
+  color: #f6bc25;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+/* !Section1 */
+
+/* Section2 */
+
+.section2 {
+  background-image: linear-gradient(0deg, #e6e6e6 0%, #ffffff 100%);
+}
+
+.reverseTitle {
+  font-size: 52px;
+  color: #004a80;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+span.blueBtn {
+  background-color: #004a80;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  color: #f6bc25;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 2em;
+  margin-right: 15px;
+  text-align: center;
+  width: 2em;
+}
+
+.colmn2 {
+  display: flex;
+  align-items: center;
+}
+
+.loremMainP {
+  font-size: 22px;
+  color: #4a4a4a;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.loremTitle {
+  color: #004a80;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.loremP {
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+/* !Section2 */
+
+/* Footer */
+
+.footerP {
+  font-size: 15px;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+footer.page-footer a {
+  font-size: 14px;
+  color: #004a80;
+  letter-spacing: 0;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+/* Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+  .formContainer {
+    margin: 1rem;
+    width: fit-content;
+  }
+
+  .formClass {
+    width: 560px;
+  }
+
+  .goBtn {
+    width: auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .section1 {
+    height: auto;
+  }
+
+  .Section1Title {
+    font-size: 48px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .h2Text {
+    font-size: 20px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .reverseTitle {
+    font-size: 48px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .columnInfo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .loremMainP {
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-right: 2rem;
+    margin-left: 0.25rem;
+  }
+
+  .loremTitle {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  span.blueBtn {
+    background-color: #004a80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #f6bc25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.5em;
+  }
+
+  .formContainer {
+    margin: 1rem;
+    width: fit-content;
+  }
+
+  .formClass {
+    width: 560px;
+  }
+
+  .goBtn {
+    width: auto;
+  }
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .Section1Title {
+    font-size: 38px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .orangeText {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .h2Text {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .emailInfo {
+    font-size: 12px;
+    padding-top: 0.25rem;
+  }
+
+  .lockImg {
+    margin-left: 1rem;
+  }
+
+  .reverseTitle {
+    font-size: 38px;
+    letter-spacing: 0;
+    text-align: center;
+  }
+
+  .loremMainP {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    padding-left: 2rem;
+  }
+
+  .rowNumbers {
+    padding-left: 2rem;
+  }
+
+  .columnInfo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  span.blueBtn {
+    background-color: #004a80;
+    border-radius: 1em;
+    -moz-border-radius: 1em;
+    -webkit-border-radius: 1em;
+    color: #f6bc25;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.5em;
+  }
+
+  .formContainer {
+    margin-right: 2rem;
+    width: fit-content;
+  }
+
+  .formClass {
+    width: auto;
+  }
+
+  .goBtn {
+    width: 76vw;
+    margin-left: 0;
+  }
+}
