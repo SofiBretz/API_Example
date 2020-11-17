@@ -168,6 +168,21 @@ input {
     border-radius: 6px;
 }
 
+.goBtn:active {
+  background: #F6BC25;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
+.goBtn:hover {
+  background: #F2DA56;
+  opacity: 1;
+  box-shadow: 0 3px 0 0 #A6953B, inset 0 1px 0 0 #FFFFFF;
+  border-radius: 6px;
+  border-radius: 6px;
+}
+
 .goText {
     color: #014A80;
     font-weight: bold;
